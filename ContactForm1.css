@@ -1,0 +1,133 @@
+.contactform{
+    padding-top: 0px;
+
+}
+
+.label{
+    color:white;
+}
+
+.submitbtn {
+    
+    color: white;
+    padding: 10px 230px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    gap:20px;
+    margin-top:20px;
+
+
+}
+.btn{
+    color:white;
+}
+.form-group{
+    color:white;
+}
+.B-9 button{
+    color:white;
+}
+
+.contact-form button:hover {
+    background-color:rgb(219, 190, 110);
+    color:white;
+}
+.form-control{
+    background:transparent;
+    border:none;
+    border-radius: 0;
+    border-bottom:1px solid white;
+}
+.F-8{
+    display: flex;
+    flex-direction: row;
+
+}
+.F-9{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+@media (max-width:1024px) {
+    .submitbtn{
+        margin-left: 0px;
+        float: unset;
+        padding:0px 250px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .submitbtn{
+        margin-left: 10px;
+        float: unset;
+        padding:0px 450px;
+    }
+    
+
+    .F-8{
+        display: flex;
+        flex-direction: column;
+    }
+    .F-9{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form-control{
+        width:200%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .submitbtn{
+        margin-left: 30px;
+        float: unset;
+        padding:0px 350px;
+    }
+    .btn{
+        margin-left: 180px;
+
+    }
+    
+
+    .F-8{
+        display: flex;
+        flex-direction: column;
+    }
+    .F-9{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form-control{
+        width:200%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .F-8{
+        display: flex;
+        flex-direction: column;
+    }
+    .F-9{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form-control{
+        width:100%;
+    }
+}
+
+@media (min-width:375px) and (max-width:400px) {
+    .btn{
+        margin-left: 0px;
+    }
+}
+
